@@ -15,12 +15,12 @@ function Chat () {
       data={chatRoomsData}
       renderItem={({item}) =>   <ChatRoomItems chatRoom={item}/>}
       showsVerticalScrollIndicator={false}
-      ListHeaderComponent={() => <FlatList
-      data={chatRoomsData}
-      renderItem={({item}) =>   <ChatRoomItems chatRoom={item}/>}
-      showsVerticalScrollIndicator={false}
-      horizontal
-      />}
+      // ListHeaderComponent={() => <FlatList
+      // data={chatRoomsData}
+      // renderItem={({item}) =>   <ChatRoomItems chatRoom={item}/>}
+      // showsVerticalScrollIndicator={false}
+      // horizontal
+      // />}
       />
        
     </View>
